@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  /* primary: #264653
+  secundary #2a9d8f
+  danger: #e76f51
+  info: #e9c46a */
+
+
+
+  .container{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 600px;
+  }
+
+  .mt-2{
+    margin-top: 2rem;
+  }
+
+  .logo{
+    display: block;
+    font-size: 3rem;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    background: #264653;
+    color:white;
+    font-weight: 700;
+  }
+
+  .btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.4em;
+    font-weight: 400;
+  }
+
+  .btn-primary{
+    background: #264653;
+    color:white;
+  }
+
+    .btn-secundary{
+    background: #2a9d8f;
+    color:white;
+  }
+
+  .btn-danger{
+    background: #e76f51;
+    color:white;
+  }
+
+  .btn-info{
+    background: #e9c46a;
+    color:black;
+  }
+
+  .card{
+    width: 20rem;
+    background: #264653;
+    overflow: hidden;
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+  .card-img{
+    width: 100%;
+}
+
+.card-body{
+  padding: 1em;
+}
+.card-body h2{
+  font-weight: 700;
+}
+
+.card-body p{
+  font-weight: 400;
+}
